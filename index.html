@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Green Screen Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="webcam" autoplay playsinline></video>
+  <canvas id="output"></canvas>
+  <div id="controls">
+    <button id="imageBtn">Choose Background Image</button>
+    <input type="file" id="upload" accept="image/*" style="display:none;">
+    <button id="cameraToggle">Toggle Camera</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
